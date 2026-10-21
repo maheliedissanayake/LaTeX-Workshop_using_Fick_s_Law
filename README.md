@@ -8,11 +8,11 @@ Materialien für einen 90-minütigen LaTeX-Workshop für Physikstudierende. Die 
 
 | Datei | Was ist das? |
 |---|---|
-| [`LaTeX-Workshop.pptx`] | Präsentationsfolien: kurze Geschichte von TeX und LaTeX, Vorteile, Grundlagen, die fünf Aufgaben und Quellen |
-| [`Aufgabenblatt`]| Aufgabenblatt als PDF, als Word-Datei und als LaTeX-Quelltext |
-| [`Spickzettel.pdf`] | Zusammenfassung der wichtigsten Befehle  |
-| [`starter-projekt.zip`]| Starter-Projekt für die Teilnehmenden: Text und Kopfzeile fertig, Formatierung fehlt (siehe `TODO`-Kommentare) |
-| [`Loesung/`] | Musterlösung als PDF und als ZIP zum Hochladen auf Overleaf
+| [`LaTeX-Workshop.pptx`](LaTeX-Workshop.pptx) | Präsentationsfolien: kurze Geschichte von TeX und LaTeX, Vorteile, Grundlagen, die fünf Aufgaben und Quellen |
+| [`Aufgabenblatt/`](Aufgabenblatt/) | Aufgabenblatt als PDF, als Word-Datei und als LaTeX-Quelltext |
+| [`Spickzettel.pdf`](Spickzettel.pdf) | Zusammenfassung der wichtigsten Befehle |
+| [`starter-projekt.zip`](starter-projekt.zip) | Starter-Projekt für die Teilnehmenden: Text und Kopfzeile fertig, Formatierung fehlt (siehe `TODO`-Kommentare) |
+| [`Loesung/`](Loesung/) | Musterlösung als PDF und als ZIP zum Hochladen auf Overleaf |
 
 ## Ablauf
 
@@ -45,16 +45,20 @@ Jeder Schritt spielt sich hauptsächlich in einer Datei ab. Wer hängen bleibt, 
 
 **In Overleaf** (empfohlen, keine Installation nötig):
 
-1. [`starter-projekt.zip`] herunterladen.
+1. [`starter-projekt.zip`](starter-projekt.zip) herunterladen.
 2. In [Overleaf](https://www.overleaf.com) auf **New Project → Upload Project** gehen und die ZIP-Datei hochladen.
 3. Das Aufgabenblatt (`Aufgabenblatt.pdf`) liegt mit im Projekt. Einfach bei Schritt 1 anfangen.
 
 **Lokal** (mit TeX Live oder MiKTeX):
 
+1. `starter-projekt.zip` (für die Übung) oder `Loesung/musterloesung.zip` (Musterlösung) entpacken.
+2. Im entpackten Ordner kompilieren:
+
 ```bash
-cd loesung
 latexmk -pdf main.tex
 ```
+
+Im Starter-Projekt klappt das erst, wenn Schritt 1 erledigt ist. Vorher fehlt noch `\documentclass`.
 
 `latexmk` startet auch `biber` für das Literaturverzeichnis. Gebraucht werden unter anderem KOMA-Script, `amsmath`, `siunitx`, `booktabs` und `biblatex`. Das alles ist in einer vollständigen TeX-Live-Installation enthalten.
 
@@ -66,5 +70,6 @@ Die inhaltlichen Aussagen auf den Folien (Geschichte, Vorteile von LaTeX, Physik
 
 [![CC BY 4.0](https://img.shields.io/badge/Lizenz-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/deed.de)
 
-© 2026 Mahelie Dissanayake. 
+© 2026 Mahelie Dissanayake.
+
 Das Material steht unter der Lizenz [Creative Commons Namensnennung 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.de). Ihr dürft es frei nutzen, verändern und weitergeben, auch für eigene Workshops. Bedingung ist, dass ihr mich als Urheberin nennt, auf die Lizenz verweist und angebt, ob ihr etwas geändert habt. Den vollständigen Lizenztext findet ihr in [`LICENSE`](LICENSE).
