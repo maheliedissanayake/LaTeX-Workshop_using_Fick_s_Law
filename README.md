@@ -68,5 +68,6 @@ Die inhaltlichen Aussagen auf den Folien (Geschichte, Vorteile von LaTeX, Physik
 
 [![CC BY 4.0](https://img.shields.io/badge/Lizenz-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/deed.de)
 
-© 2026 Mahelie Dissanayake. Das Material steht unter der Lizenz [Creative Commons Namensnennung 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.de). 
+© 2026 Mahelie Dissanayake. 
+Das Material steht unter der Lizenz [Creative Commons Namensnennung 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.de). 
 Ihr dürft es frei nutzen, verändern und weitergeben, auch für eigene Workshops. Bedingung ist, dass ihr mich als Urheberin nennt, auf die Lizenz verweist und angebt, ob ihr etwas geändert habt. Den vollständigen Lizenztext findet ihr in [`LICENSE`](LICENSE).
