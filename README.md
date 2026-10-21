@@ -1,10 +1,8 @@
 # LaTeX-Workshop anhand der Fickschen Gesetze
-
+### Mahelie Dissanayake, 04.11.2026
 Materialien für einen 90-minütigen LaTeX-Workshop für Physikstudierende. Die Teilnehmenden setzen dabei selbst ein kleines Dokument: eine Zusammenfassung über die Fickschen Diffusionsgesetze. 
 Darin stehen Abschnitte in eigenen Dateien, nummerierte Gleichungen, Abbildungen, eine Tabelle und ein Literaturverzeichnis. Der Text ist schon vorhanden, es geht nur ums Setzen. 
 So passt der Workshop für Einsteiger*innen und für alle, die schon ein bisschen LaTeX können.
-
-**Mahelie Dissanayake · 04.11.2026**
 
 ## Inhalt
 
