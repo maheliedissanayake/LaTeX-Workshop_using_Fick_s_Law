@@ -9,7 +9,7 @@ Materialien für einen 90-minütigen LaTeX-Workshop für Physikstudierende. Die 
 | Datei | Was ist das? |
 |---|---|
 | [`LaTeX-Workshop.pptx`] | Präsentationsfolien: kurze Geschichte von TeX und LaTeX, Vorteile, Grundlagen, die fünf Aufgaben und Quellen |
-| [`Aufgabenblatt/`]| Aufgabenblatt als PDF, als Word-Datei und als LaTeX-Quelltext |
+| [`Aufgabenblatt`]| Aufgabenblatt als PDF, als Word-Datei und als LaTeX-Quelltext |
 | [`Spickzettel.pdf`] | Zusammenfassung der wichtigsten Befehle  |
 | [`Starter.zip`]| Starter-Projekt für die Teilnehmenden: Text und Kopfzeile fertig, Formatierung fehlt (siehe `TODO`-Kommentare) |
 | [`Loesung/`] | Musterlösung als PDF und als ZIP zum Hochladen auf Overleaf
